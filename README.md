@@ -42,9 +42,9 @@
 - Install seluruh kebutuhan yang diperlukan
 
   ```
-    $ sudo apt install -y mariadb-server
-    $ sudo apt install -y php php-fpm php-cli php-mysql php-zip php-gd php-mbstring php-curl php-xml php-pear php-bcmath
-    $ sudo apt install -y nginx
+    $ sudo apt install mariadb-server
+    $ sudo apt install php php-fpm php-cli php-mysql php-zip php-gd php-mbstring php-curl php-xml php-pear php-bcmath
+    $ sudo apt install nginx
   ```
 - Setelah semua kebutuhan telah diinstall, jalankan Nginx dan MariaDB
 
