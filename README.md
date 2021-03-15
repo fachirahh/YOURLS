@@ -114,16 +114,13 @@ Ketika selesai, simpan dan keluar dengan cara `ctrl+o`, `enter` dan `ctrl+x`. La
 ```
 
 #### Download dan Konfigurasi Nginx
-8. Instal Nginx di Ubuntu 18.04 dengan menjalankan perintah:
+Buat file konfigurasi baru pada direktori `/etc/nginx/conf.d/` dengan nama `yourls.conf`
 ```
-    $ sudo apt install -y nginxt
+   $ sudo nano /etc/nginx/conf.d/yourls.conf
 ```
-9. Buat file `/etc/nginx/conf.d/yourls.conf` konfigurasi baru dengan konten di bawah ini
+Sesuaikan direktori root dengan direktori tempat YOURLS didownload tadi
 ```
-    $ sudo nano /etc/nginx/conf.d/yourls.conf
-```
-```
-    server {
+   server {
       listen 80;
       root /srv/YOURLS;
       index index.php index.html index.htm;
@@ -140,14 +137,18 @@ Ketika selesai, simpan dan keluar dengan cara `ctrl+o`, `enter` dan `ctrl+x`. La
         fastcgi_pass unix:/var/run/php/php7.2-fpm.sock;
         include fastcgi_params;
       }
-    }
+   }
 ```
-10. Periksa syntax nginx untuk memastikannya baik-baik saja (OK)
+Setelah disimpan periksa syntax nginx untuk memastikannya baik-baik saja (OK)
 ```
-    $ nginx -t
+   $ sudo nginx -t
 ```
-
-12. Restart nginx service.
+Pastikan hasil yang keluar adalah ini, jika tidak coba periksa kembali file konfigurasi dari Nginx tadi
+```
+   nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+   nginx: configuration file /etc/nginx/nginx.conf test is successful
+```
+Restart nginx service.
 ```
     $ sudo systemctl restart nginx
 ```
