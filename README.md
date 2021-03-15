@@ -33,7 +33,7 @@
     $ sudo apt install -y php php-fpm php-cli php-mysql php-zip php-gd php-mbstring php-curl php-xml php-pear php-bcmath
     $ sudo apt install -y nginx
   ```
-- Setelah semua kebutuhan telah diinstall, jalankan `Nginx` dan `MariaDB`
+- Setelah semua kebutuhan telah diinstall, jalankan Nginx dan MariaDB
 
   ```
     $ sudo systemctl start nginx
@@ -41,7 +41,7 @@
   ```
   
 ### Membuat database untuk YOURLS
-- Pertama masuk terlebih dahulu kedalam `MariaDB`
+- Pertama masuk terlebih dahulu kedalam MariaDB
 
   ```
     $ sudo mysql
@@ -76,7 +76,7 @@
     $ cd YOURLS/user
     $ sudo cp config-sample.php config.php
   ```
-- Edit file `config.php` sesuai dengan database yang telah dibuat pada `MariaDB` tadi 
+- Edit file `config.php` sesuai dengan database yang telah dibuat pada MariaDB tadi 
   ```
     $ sudo config.php
   ```
