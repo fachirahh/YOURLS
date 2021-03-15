@@ -20,33 +20,33 @@
 ### Install semua kebutuhan yang diperlukan
 Sebelum menginstall kebutuhan yang diperlukan, pastikan seluruh paket pada sistem sudah up-to-date
  ```
-  sudo apt-get update
+   sudo apt-get update
  ```
  
 Install seluruh kebutuhan yang diperlukan
  ```
- sudo apt install -y mariadb-server
-    sudo apt install -y php php-fpm php-cli php-mysql php-zip php-gd php-mbstring php-curl php-xml php-pear php-bcmath
-    sudo apt install -y nginx
+  sudo apt install -y mariadb-server
+  sudo apt install -y php php-fpm php-cli php-mysql php-zip php-gd php-mbstring php-curl php-xml php-pear php-bcmath
+  sudo apt install -y nginx
  ```
 Setelah semua kebutuhan telah diinstall, jalankan Nginx dan MariaDB
  ```
-    sudo systemctl start nginx
-    sudo systemctl start mariadb
+  sudo systemctl start nginx
+  sudo systemctl start mariadb
  ```
 ### Membuat database untuk YOURLS
 Pertama masuk terlebih dahulu kedalam MariaDB
  ```
-    sudo mysql
+   sudo mysql
  ```
  
 Setelah masuk buat database bernama yourls
  ```
-    CREATE DATABASE yourls;
+   CREATE DATABASE yourls;
  ```
 Berikan semua akses database yourls kepada user yourls@localhost dan tambahkan password
  ```
-    GRANT ALL PRIVILEGES ON yourls.* TO 'yourls'@'localhost' IDENTIFIED BY "YOUR-PASSWORD";
+   GRANT ALL PRIVILEGES ON yourls.* TO 'yourls'@'localhost' IDENTIFIED BY "YOUR-PASSWORD";
  ```
  
 Flush hak akses yang diberikan dan keluar dari MariaDb
