@@ -108,7 +108,10 @@ Tambahkan Username(s) dan password(s) yang diizinkan untuk mengakses situs. Pass
        // You can have one or more 'login'=>'password' lines
        );
  ```
- Ketika selesai, simpan dan keluar dengan cara `ctrl+o`, `enter` dan `ctrl+x` 
+Ketika selesai, simpan dan keluar dengan cara `ctrl+o`, `enter` dan `ctrl+x`. Lalu ubah direktori kepemilikan `/srv/YOURLS` ke user www-data (web server) 
+```
+   $ sudo chown -R www-data:www-data /srv/YOURLS
+```
 
 #### Download dan Konfigurasi Nginx
 8. Instal Nginx di Ubuntu 18.04 dengan menjalankan perintah:
@@ -143,10 +146,7 @@ Tambahkan Username(s) dan password(s) yang diizinkan untuk mengakses situs. Pass
 ```
     $ nginx -t
 ```
-11. Berikan kepemilikan pengguna web Nginx ke direktori /srv/YOURLS.
-```
-    $ sudo chown -R www-data:www-data /srv/YOURLS
-```
+
 12. Restart nginx service.
 ```
     $ sudo systemctl restart nginx
