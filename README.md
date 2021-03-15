@@ -13,16 +13,16 @@
 - PHP cURL extension
 
 ### Konfigurasi SSH :
-1.  Login kedalam server menggunakan SSH. Untuk pengguna windows bisa menggunakan aplikasi [PuTTY](http://www.putty.org/).
- ```
-  $ 
- ```
+- Login kedalam server menggunakan SSH. Untuk pengguna windows bisa menggunakan aplikasi [PuTTY](http://www.putty.org/).
+  ```
+    $ 
+  ```
  
 ### Install semua kebutuhan yang diperlukan
 - Sebelum menginstall kebutuhan yang diperlukan, pastikan seluruh paket pada sistem sudah up-to-date
 
   ```
-   $ sudo apt-get update
+    $ sudo apt-get update
   ```
  
 - Install seluruh kebutuhan yang diperlukan
@@ -64,21 +64,24 @@
  
 ### Download dan Install YOURSL
 - Download YOURLS dari repositori Git dan tempatkan unduhan YOURLS ke direktori `/srv` 
- ```
+
+  ```
     $ cd /srv
     $ sudo git clone https://github.com/YOURLS/YOURLS.git
- ```
+  ```
 - Masuk ke direktori `YOURLS/user`, lalu copy sample file konfigurasi YOURLS dan beri nama `config.php`
- ```
+
+  ```
     $ cd YOURLS/user
     $ sudo cp config-sample.php config.php
- ```
+  ```
 - Edit file `config.php` sesuai dengan database yang telah dibuat pada `MariaDB` tadi 
- ```
+  ```
     $ sudo config.php
- ```
+  ```
 - Set database connection 
- ```
+
+  ```
     ** MySQL settings - You can get this info from your web host
     */
     
@@ -97,14 +100,16 @@
    
     /** MySQL tables prefix */                                                                                       
     define( 'YOURLS_DB_PREFIX', 'yourls_' ); 
- ```
+  ```
 - Set website URL untuk YOURLS
+
   ```
     /** YOURLS installation URL -- all lowercase, no trailing slash at the end.
     ** If you define it to "http://sho.rt", don't use "http://www.sho.rt" in your browser (and vice-versa) */
     define( 'YOURLS_SITE', 'http://localhost:8000' );
   ```
 - Tambahkan Username(s) dan password(s) yang diizinkan untuk mengakses situs. Password dapat berupa teks biasa atau sebagai hash terenkripsi. YOURLS akan secara otomatis mengenkripsi sandi teks biasa dalam file ini
+  
   ```
     /** Username(s) and password(s) allowed to access the site. Passwords either in plain text or as encrypted hashes
     ** YOURLS will auto encrypt plain text passwords in this file
@@ -116,17 +121,20 @@
      );
   ```
 - Ketika selesai, simpan dan keluar dengan cara `ctrl+o`, `enter` dan `ctrl+x`. Lalu ubah direktori kepemilikan `/srv/YOURLS` ke user www-data (web server) 
+  
   ```
     $ sudo chown -R www-data:www-data /srv/YOURLS
   ```
 
 #### Download dan Konfigurasi Nginx
 - Buat file konfigurasi baru pada direktori `/etc/nginx/conf.d/` dengan nama `yourls.conf`
+  
   ```
     $ sudo nano /etc/nginx/conf.d/yourls.conf
   ```
- Sesuaikan direktori root dengan direktori tempat YOURLS didownload tadi
- ```
+- Sesuaikan direktori root dengan direktori tempat YOURLS didownload tadi
+ 
+  ```
     server {
        listen 80;
        root /srv/YOURLS;
@@ -145,20 +153,23 @@
          include fastcgi_params;
        }
     }
- ```
- - Setelah disimpan periksa syntax nginx untuk memastikannya baik-baik saja (OK)
   ```
-     $ sudo nginx -t
+- Setelah disimpan periksa syntax nginx untuk memastikannya baik-baik saja (OK)
+  
+  ```
+    $ sudo nginx -t
   ```
 - Pastikan hasil yang keluar adalah ini, jika tidak coba periksa kembali file konfigurasi dari Nginx tadi
-```
-   nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
-   nginx: configuration file /etc/nginx/nginx.conf test is successful
-```
-Restart nginx service.
-```
-   $ sudo systemctl restart nginx
-```
+
+  ```
+    nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+    nginx: configuration file /etc/nginx/nginx.conf test is successful
+  ```
+- Restart nginx service.
+
+  ```
+    $ sudo systemctl restart nginx
+  ```
 
 ## KONFIGURASI
 ## CARA PEMAKAIAN
