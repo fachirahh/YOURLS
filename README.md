@@ -155,18 +155,18 @@
        }
     }
   ```
-- Setelah disimpan periksa syntax nginx untuk memastikannya baik-baik saja (OK)
+- Setelah disimpan periksa syntax `Nginx` untuk memastikannya baik-baik saja (OK)
   
   ```
     $ sudo nginx -t
   ```
-- Pastikan hasil yang keluar adalah ini, jika tidak coba periksa kembali file konfigurasi dari Nginx tadi
+- Pastikan hasil yang keluar adalah ini, jika tidak coba periksa kembali file konfigurasi dari `Nginx` tadi
 
   ```
     nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
     nginx: configuration file /etc/nginx/nginx.conf test is successful
   ```
-- Restart nginx service.
+- Restart `Nginx`  service.
 
   ```
     $ sudo systemctl restart nginx
