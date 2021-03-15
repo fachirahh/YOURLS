@@ -91,7 +91,7 @@ Set database connection
    /** MySQL tables prefix */                                                                                       
    define( 'YOURLS_DB_PREFIX', 'yourls_' ); 
 ```
-Set website URL for YOURLS
+Set website URL untuk YOURLS
  ```
    /** YOURLS installation URL -- all lowercase, no trailing slash at the end.
    ** If you define it to "http://sho.rt", don't use "http://www.sho.rt" in your browser (and vice-versa) */
