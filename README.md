@@ -70,6 +70,8 @@ Set database connection dengan mengedit isi dari file `config.php`
 ```
     $ sudo config.php
 ```
+Disini ada beberapa hal yang akan diubah diantaranya yaitu
+###### Username database (sesuai dengan nama user pada saat membuat database pada MariaDB tadi
 ```
     *
     ** MySQL settings - You can get this info from your web host
