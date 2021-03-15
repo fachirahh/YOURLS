@@ -56,7 +56,7 @@ Flush hak akses yang diberikan dan keluar dari MariaDb
  ```
  
 ### Download dan Install YOURSL
-2. Tempatkan unduhan YOURLS ke `/srv` directory
+Download YOURLS dari repositori Git dan tempatkan unduhan YOURLS ke direktori `/srv` 
 ```
     $ cd /srv
     $ git clone https://github.com/YOURLS/YOURLS.git
@@ -156,3 +156,4 @@ Flush hak akses yang diberikan dan keluar dari MariaDb
 ## CARA PEMAKAIAN
 ## PEMBAHASAN
 ## REFERENSI
+## UCAPAN TERIMA KASIH
