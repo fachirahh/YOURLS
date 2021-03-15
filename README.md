@@ -29,27 +29,27 @@ Install seluruh kebutuhan yang diperlukan
    $ sudo apt install -y php php-fpm php-cli php-mysql php-zip php-gd php-mbstring php-curl php-xml php-pear php-bcmath
    $ sudo apt install -y nginx
  ```
-Setelah semua kebutuhan telah diinstall, jalankan Nginx dan MariaDB
+Setelah semua kebutuhan telah diinstall, jalankan `Nginx` dan `MariaDB`
  ```
    $ sudo systemctl start nginx
    $ sudo systemctl start mariadb
  ```
 ### Membuat database untuk YOURLS
-Pertama masuk terlebih dahulu kedalam MariaDB
+Pertama masuk terlebih dahulu kedalam `MariaDB`
  ```
    $ sudo mysql
  ```
  
-Setelah masuk buat database bernama yourls
+Setelah masuk buat database bernama `yourls`
  ```
    CREATE DATABASE yourls;
  ```
-Berikan semua akses database yourls kepada user yourls@localhost dan tambahkan password
+Berikan semua akses database `yourls` kepada user `yourls@localhost` dan tambahkan password
  ```
    GRANT ALL PRIVILEGES ON yourls.* TO 'yourls'@'localhost' IDENTIFIED BY "YOUR-PASSWORD";
  ```
  
-Flush hak akses yang diberikan dan keluar dari MariaDb
+Flush hak akses yang diberikan dan keluar dari `MariaDB`
  ```
    FLUSH PRIVILEGES;
    QUIT
@@ -71,7 +71,7 @@ Set database connection dengan mengedit isi dari file `config.php`
     $ sudo config.php
 ```
 Disini ada beberapa hal yang akan diubah diantaranya yaitu
-###### Username database (sesuai dengan nama user pada saat membuat database pada MariaDB tadi
+##### Username database (sesuai dengan nama user pada saat membuat database pada MariaDB tadi
 ```
     *
     ** MySQL settings - You can get this info from your web host
