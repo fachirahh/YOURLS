@@ -17,6 +17,24 @@
  ```
     $ 
  ```
+#### Install semua kebutuhan yang diperlukan
+Sebelum menginstall kebutuhan yang diperlukan, pastikan seluruh paket pada sistem sudah up-to-date
+ ```
+    sudo apt-get update
+ ```
+ 
+Install seluruh kebutuhan yang diperlukan
+ ```
+    sudo apt install -y mariadb-server
+    sudo apt install -y php php-fpm php-cli php-mysql php-zip php-gd php-mbstring php-curl php-xml php-pear php-bcmath
+    sudo apt install -y nginx
+ ```
+Setelah semua kebutuhan telah diinstall, jalankan Nginx dan MariaDB
+ ```
+    sudo systemctl start nginx
+    sudo systemctl start mariadb
+ ```
+
 #### Download dan Install YOURSL
 2. Tempatkan unduhan YOURLS ke `/srv` directory
 ```
