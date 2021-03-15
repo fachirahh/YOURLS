@@ -1,3 +1,5 @@
+[Alt Text](https://github.com/fachirahh/YOURLS/blob/main/Photos/yourls-logo.png)
+
 <table align="center">
 <thead>
 <tr>
