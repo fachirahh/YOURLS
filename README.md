@@ -14,6 +14,7 @@
 
 ### Konfigurasi SSH :
 - Login kedalam server menggunakan SSH. Untuk pengguna windows bisa menggunakan aplikasi [PuTTY](http://www.putty.org/).
+
   ```
     $ 
   ```
