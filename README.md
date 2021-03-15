@@ -37,11 +37,11 @@
   ```
   
 ### Membuat database untuk YOURLS
--Pertama masuk terlebih dahulu kedalam `MariaDB`
+- Pertama masuk terlebih dahulu kedalam `MariaDB`
   ```
     $ sudo mysql
   ```
--Setelah masuk buat database bernama `yourls`
+- Setelah masuk buat database bernama `yourls`
   ```
     CREATE DATABASE yourls;
   ```
