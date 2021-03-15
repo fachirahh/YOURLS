@@ -68,33 +68,30 @@ Masuk ke direktori `YOURLS/user`, lalu copy sample file konfigurasi YOURLS dan b
 ```
 Set database connection dengan mengedit isi dari file `config.php`
 ```
-    $ sudo config.php
+   $ sudo config.php
 ```
 Disini ada beberapa hal yang akan diubah. Pastikan data konfigurasi pada `config.php` sesuai dengan database yang telah dibuat pada `MariaDB` tadi
-#### - Username database 
 ```
-   /** MySQL database username */
-   define( 'YOURLS_DB_USER', 'yourls' );
-```
-#### - Password database
-```
-   /** MySQL database password */
-   define( 'YOURLS_DB_PASS', 'YOUR-Password' );
-```
-#### - Nama database
-```
-   /** The name of the database for YOURLS */
-   define( 'YOURLS_DB_NAME', 'yourls' );
-```
-#### - Nama Hostname
-```
-   /** MySQL hostname.
+   *
+    ** MySQL settings - You can get this info from your web host
+    */
+
+    /** MySQL database username */
+    define( 'YOURLS_DB_USER', 'yourls' );
+
+    /** MySQL database password */
+    define( 'YOURLS_DB_PASS', 'YOUR-PASSWORD' );
+ 
+    /** The name of the database for YOURLS */
+    define( 'YOURLS_DB_NAME', 'yourls' );
+
+    /** MySQL hostname.
      ** If using a non standard port, specify it like 'hostname:port', eg. 'localhost:9999' or '127.0.0.1:666' */
     define( 'YOURLS_DB_HOST', 'localhost' );
-```
-#### - Table Prefix
-```
-    /** MySQL tables prefix */                                                                                             define( 'YOURLS_DB_PREFIX', 'yourls_' );
+
+    /** MySQL tables prefix */                                                                                         
+    define( 'YOURLS_DB_PREFIX', 'yourls_' );
+    
 ```
 
 5.  Set website URL for YOURLS
