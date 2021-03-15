@@ -16,7 +16,7 @@
 - Login kedalam server menggunakan SSH. Untuk pengguna windows bisa menggunakan aplikasi [PuTTY](http://www.putty.org/).
 
   ```
-    $ 
+    $ ssh student@localhost -p 2200
   ```
  
 ### Install semua kebutuhan yang diperlukan
