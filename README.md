@@ -187,6 +187,15 @@
 
 ## CARA PEMAKAIAN
 ![install](Photos/01.PNG)
+![empty_username](Photos/02.PNG)
+![filled_username](Photos/03.PNG)
+![admin_page](Photos/04.PNG)
+![try_short_url](Photos/05.PNG)
+![success_short_url](Photos/06.png)
+![go_short_url](Photos/07.png)
+![go_short_url_success](Photos/08.PNG)
+![try_short_url2](Photos/09.PNG)
+![failed_short_url](Photos/10.png)
 ## PEMBAHASAN
 ## REFERENSI
 ## UCAPAN TERIMA KASIH
