@@ -12,7 +12,7 @@
 - RAM minimal 64 Mb+
 - PHP cURL extension
 
-### Proses Instalasi :
+### Konfigurasi SSH :
 1.  Login kedalam server menggunakan SSH. Untuk pengguna windows bisa menggunakan aplikasi [PuTTY](http://www.putty.org/).
  ```
   $ 
