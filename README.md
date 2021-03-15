@@ -20,24 +20,24 @@
 ### Install semua kebutuhan yang diperlukan
 Sebelum menginstall kebutuhan yang diperlukan, pastikan seluruh paket pada sistem sudah up-to-date
  ```
-   sudo apt-get update
+   $ sudo apt-get update
  ```
  
 Install seluruh kebutuhan yang diperlukan
  ```
-   sudo apt install -y mariadb-server
-   sudo apt install -y php php-fpm php-cli php-mysql php-zip php-gd php-mbstring php-curl php-xml php-pear php-bcmath
-   sudo apt install -y nginx
+   $ sudo apt install -y mariadb-server
+   $ sudo apt install -y php php-fpm php-cli php-mysql php-zip php-gd php-mbstring php-curl php-xml php-pear php-bcmath
+   $ sudo apt install -y nginx
  ```
 Setelah semua kebutuhan telah diinstall, jalankan Nginx dan MariaDB
  ```
-   sudo systemctl start nginx
-   sudo systemctl start mariadb
+   $ sudo systemctl start nginx
+   $ sudo systemctl start mariadb
  ```
 ### Membuat database untuk YOURLS
 Pertama masuk terlebih dahulu kedalam MariaDB
  ```
-   sudo mysql
+   $ sudo mysql
  ```
  
 Setelah masuk buat database bernama yourls
@@ -58,13 +58,13 @@ Flush hak akses yang diberikan dan keluar dari MariaDb
 ### Download dan Install YOURSL
 Download YOURLS dari repositori Git dan tempatkan unduhan YOURLS ke direktori `/srv` 
 ```
-    $ cd /srv
-    $ git clone https://github.com/YOURLS/YOURLS.git
+   $ cd /srv
+   $ sudo git clone https://github.com/YOURLS/YOURLS.git
 ```
-3.  Copy `user/config-sample.php to user/config.php`
+Masuk ke direktori `YOURLS/user`, lalu copy sample file konfigurasi YOURLS dan beri nama `config.php`
 ```
-    $ cd YOURLS/user
-    $ cp config-sample.php config.php
+   $ cd YOURLS/user
+   $ sudo cp config-sample.php config.php
 ```
 4.  Set database connection
 ```
@@ -157,5 +157,3 @@ Download YOURLS dari repositori Git dan tempatkan unduhan YOURLS ke direktori `/
 ## PEMBAHASAN
 ## REFERENSI
 ## UCAPAN TERIMA KASIH
-
-Kami mengucapkan banyak-banyak terimakasih untuk teman-teman yang sudah meluangkkan waktu, tenaga, dan pikiran dalam pengerjaan projek ini, begitu juga teman-teman lainnya yang sudah ikut membantu dalam menyukseskan projek kami.. semoga selalu diberi keberkahan dan kemudahan.. <3
