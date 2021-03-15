@@ -66,11 +66,11 @@ Masuk ke direktori `YOURLS/user`, lalu copy sample file konfigurasi YOURLS dan b
    $ cd YOURLS/user
    $ sudo cp config-sample.php config.php
 ```
-Set database connection dengan mengedit isi dari file `config.php`
+Edit file `config.php` sesuai dengan database yang telah dibuat pada `MariaDB` tadi 
 ```
    $ sudo config.php
 ```
-Disini ada beberapa hal yang akan diubah. Pastikan data konfigurasi pada `config.php` sesuai dengan database yang telah dibuat pada `MariaDB` tadi
+Set database connection 
 ```
    *
     ** MySQL settings - You can get this info from your web host
@@ -93,14 +93,13 @@ Disini ada beberapa hal yang akan diubah. Pastikan data konfigurasi pada `config
     define( 'YOURLS_DB_PREFIX', 'yourls_' );
     
 ```
-
-5.  Set website URL for YOURLS
+Set website URL for YOURLS
  ```
     /** YOURLS installation URL -- all lowercase, no trailing slash at the end.
      ** If you define it to "http://sho.rt", don't use "http://www.sho.rt" in your browser (and vice-versa) */
-    define( 'YOURLS_SITE', 'http://yourls.example.com' );
+    define( 'YOURLS_SITE', 'http://localhost:80000' );
  ```
-6.  Tambahkan Username(s) dan password(s) yang diizinkan untuk mengakses situs. Password dapat berupa teks biasa atau sebagai hash terenkripsi. YOURLS akan secara otomatis mengenkripsi sandi teks biasa dalam file ini
+Tambahkan Username(s) dan password(s) yang diizinkan untuk mengakses situs. Password dapat berupa teks biasa atau sebagai hash terenkripsi. YOURLS akan secara otomatis mengenkripsi sandi teks biasa dalam file ini
  ```
     /** Username(s) and password(s) allowed to access the site. Passwords either in plain text or as encrypted hashes
      ** YOURLS will auto encrypt plain text passwords in this file
@@ -111,7 +110,7 @@ Disini ada beberapa hal yang akan diubah. Pastikan data konfigurasi pada `config
        // You can have one or more 'login'=>'password' lines
        );
  ```
-7. Ketika selesai, simpan dan keluar dengan cara ctrl+o, enter, ctrl+x
+ Ketika selesai, simpan dan keluar dengan cara `ctrl+o`, `enter` dan `ctrl+x` 
 
 #### Download dan Konfigurasi Nginx
 8. Instal Nginx di Ubuntu 18.04 dengan menjalankan perintah:
