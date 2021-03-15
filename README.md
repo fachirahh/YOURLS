@@ -93,16 +93,16 @@ Set database connection
 ```
 Set website URL for YOURLS
  ```
-    /** YOURLS installation URL -- all lowercase, no trailing slash at the end.
-     ** If you define it to "http://sho.rt", don't use "http://www.sho.rt" in your browser (and vice-versa) */
-    define( 'YOURLS_SITE', 'http://localhost:80000' );
+   /** YOURLS installation URL -- all lowercase, no trailing slash at the end.
+   ** If you define it to "http://sho.rt", don't use "http://www.sho.rt" in your browser (and vice-versa) */
+   define( 'YOURLS_SITE', 'http://localhost:80000' );
  ```
 Tambahkan Username(s) dan password(s) yang diizinkan untuk mengakses situs. Password dapat berupa teks biasa atau sebagai hash terenkripsi. YOURLS akan secara otomatis mengenkripsi sandi teks biasa dalam file ini
  ```
-    /** Username(s) and password(s) allowed to access the site. Passwords either in plain text or as encrypted hashes
-     ** YOURLS will auto encrypt plain text passwords in this file
-     ** Read http://yourls.org/userpassword for more information */
-    $yourls_user_passwords = array(
+   /** Username(s) and password(s) allowed to access the site. Passwords either in plain text or as encrypted hashes
+   ** YOURLS will auto encrypt plain text passwords in this file
+   ** Read http://yourls.org/userpassword for more information */
+   $yourls_user_passwords = array(
       'admin' => 'AdminPassword',
       'jmutai' => 'MyStrongPassword',
        // You can have one or more 'login'=>'password' lines
