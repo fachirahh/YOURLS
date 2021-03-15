@@ -66,7 +66,7 @@ Masuk ke direktori `YOURLS/user`, lalu copy sample file konfigurasi YOURLS dan b
    $ cd YOURLS/user
    $ sudo cp config-sample.php config.php
 ```
-4.  Set database connection
+Set database connection dengan mengedit isi dari file `config.php`
 ```
     $ sudo config.php
 ```
