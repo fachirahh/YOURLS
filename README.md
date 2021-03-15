@@ -1,13 +1,13 @@
 <table>
 <thead>
-<tr lign="center">
+<tr>
 <th align="center"><a href="#sekilas-tentang">Sekilas Tentang</a></th>
 <th align="center"><a href="#instalasi">Instalasi</a></th>
 <th align="center"><a href="#konfigurasi">Konfigurasi</a></th>
 <th align="center"><a href="#cara-pemakaian">Cara Pemakaian</a></th>
 <th align="center"><a href="#pembahasan">Pembahasan</a></th>
 <th align="center"><a href="#referensi">Referensi</a></th>
-</tr lign="center">
+</tr>
 </thead>
 </table>
 
