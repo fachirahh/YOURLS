@@ -95,7 +95,7 @@ Set website URL untuk YOURLS
  ```
    /** YOURLS installation URL -- all lowercase, no trailing slash at the end.
    ** If you define it to "http://sho.rt", don't use "http://www.sho.rt" in your browser (and vice-versa) */
-   define( 'YOURLS_SITE', 'http://localhost:80000' );
+   define( 'YOURLS_SITE', 'http://localhost:8000' );
  ```
 Tambahkan Username(s) dan password(s) yang diizinkan untuk mengakses situs. Password dapat berupa teks biasa atau sebagai hash terenkripsi. YOURLS akan secara otomatis mengenkripsi sandi teks biasa dalam file ini
  ```
@@ -106,7 +106,7 @@ Tambahkan Username(s) dan password(s) yang diizinkan untuk mengakses situs. Pass
       'admin' => 'AdminPassword',
       'jmutai' => 'MyStrongPassword',
        // You can have one or more 'login'=>'password' lines
-       );
+    );
  ```
 Ketika selesai, simpan dan keluar dengan cara `ctrl+o`, `enter` dan `ctrl+x`. Lalu ubah direktori kepemilikan `/srv/YOURLS` ke user www-data (web server) 
 ```
