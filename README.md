@@ -72,26 +72,24 @@ Edit file `config.php` sesuai dengan database yang telah dibuat pada `MariaDB` t
 ```
 Set database connection 
 ```
-   *
-    ** MySQL settings - You can get this info from your web host
-    */
-
-    /** MySQL database username */
-    define( 'YOURLS_DB_USER', 'yourls' );
-
-    /** MySQL database password */
-    define( 'YOURLS_DB_PASS', 'YOUR-PASSWORD' );
- 
-    /** The name of the database for YOURLS */
-    define( 'YOURLS_DB_NAME', 'yourls' );
-
-    /** MySQL hostname.
-     ** If using a non standard port, specify it like 'hostname:port', eg. 'localhost:9999' or '127.0.0.1:666' */
-    define( 'YOURLS_DB_HOST', 'localhost' );
-
-    /** MySQL tables prefix */                                                                                         
-    define( 'YOURLS_DB_PREFIX', 'yourls_' );
-    
+   ** MySQL settings - You can get this info from your web host
+   */
+   
+   /** MySQL database username */
+   define( 'YOURLS_DB_USER', 'yourls' );
+   
+   /** MySQL database password */
+   define( 'YOURLS_DB_PASS', 'YOUR-PASSWORD' );
+   
+   /** The name of the database for YOURLS */
+   define( 'YOURLS_DB_NAME', 'yourls' );
+   
+   /** MySQL hostname.
+   ** If using a non standard port, specify it like 'hostname:port', eg. 'localhost:9999' or '127.0.0.1:666' */
+   define( 'YOURLS_DB_HOST', 'localhost' );
+   
+   /** MySQL tables prefix */                                                                                       
+   define( 'YOURLS_DB_PREFIX', 'yourls_' ); 
 ```
 Set website URL for YOURLS
  ```
