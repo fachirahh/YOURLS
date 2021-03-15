@@ -150,7 +150,7 @@ Pastikan hasil yang keluar adalah ini, jika tidak coba periksa kembali file konf
 ```
 Restart nginx service.
 ```
-    $ sudo systemctl restart nginx
+   $ sudo systemctl restart nginx
 ```
 
 ## KONFIGURASI
