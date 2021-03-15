@@ -19,9 +19,9 @@
  ```
 ### Install semua kebutuhan yang diperlukan
 - Sebelum menginstall kebutuhan yang diperlukan, pastikan seluruh paket pada sistem sudah up-to-date
- ```
+  ```
    $ sudo apt-get update
- ```
+  ```
  
 Install seluruh kebutuhan yang diperlukan
  ```
