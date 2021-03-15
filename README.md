@@ -38,18 +38,22 @@
   
 ### Membuat database untuk YOURLS
 - Pertama masuk terlebih dahulu kedalam `MariaDB`
+
   ```
     $ sudo mysql
   ```
 - Setelah masuk buat database bernama `yourls`
+
   ```
     CREATE DATABASE yourls;
   ```
 - Berikan semua akses database `yourls` kepada user `yourls@localhost` dan tambahkan password
+
   ```
     GRANT ALL PRIVILEGES ON yourls.* TO 'yourls'@'localhost' IDENTIFIED BY "YOUR-PASSWORD";
   ``` 
 - Flush hak akses yang diberikan dan keluar dari `MariaDB`
+
   ```
     FLUSH PRIVILEGES;
     QUIT
