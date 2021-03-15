@@ -186,7 +186,7 @@
   ```
 
 ## CARA PEMAKAIAN
-![install](Photos/01.png)
+![install](Photos/01.PNG)
 ## PEMBAHASAN
 ## REFERENSI
 ## UCAPAN TERIMA KASIH
