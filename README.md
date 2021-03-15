@@ -1,4 +1,4 @@
-<table>
+<table align="center">
 <thead>
 <tr>
 <th align="center"><a href="#sekilas-tentang">Sekilas Tentang</a></th>
@@ -9,7 +9,7 @@
 <th align="center"><a href="#referensi">Referensi</a></th>
 </tr>
 </thead>
-</table>
+</table align="center">
 
 # YOURLS
 
