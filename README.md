@@ -157,3 +157,5 @@ Download YOURLS dari repositori Git dan tempatkan unduhan YOURLS ke direktori `/
 ## PEMBAHASAN
 ## REFERENSI
 ## UCAPAN TERIMA KASIH
+
+Kami mengucapkan banyak-banyak terimakasih untuk teman-teman yang sudah meluangkkan waktu, tenaga, dan pikiran dalam pengerjaan projek ini, begitu juga teman-teman lainnya yang sudah ikut membantu dalam menyukseskan projek kami.. semoga selalu diberi keberkahan dan kemudahan.. <3
