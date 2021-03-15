@@ -113,3 +113,8 @@
 ```
     $ sudo systemctl restart nginx
 ```
+
+## KONFIGURASI
+## CARA PEMAKAIAN
+## PEMBAHASAN
+## REFERENSI
