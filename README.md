@@ -127,7 +127,7 @@
     $ sudo chown -R www-data:www-data /srv/YOURLS
   ```
 
-#### Download dan Konfigurasi Nginx
+### Download dan Konfigurasi Nginx
 - Buat file konfigurasi baru pada direktori `/etc/nginx/conf.d/` dengan nama `yourls.conf`
   
   ```
