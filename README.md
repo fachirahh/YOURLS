@@ -23,7 +23,7 @@
 - Sebelum menginstall kebutuhan yang diperlukan, pastikan seluruh paket pada sistem sudah up-to-date
 
   ```
-    $ sudo apt-get update
+    $ sudo apt update
   ```
  
 - Install seluruh kebutuhan yang diperlukan
