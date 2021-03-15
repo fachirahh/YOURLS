@@ -15,17 +15,17 @@
 ### Proses Instalasi :
 1.  Login kedalam server menggunakan SSH. Untuk pengguna windows bisa menggunakan aplikasi [PuTTY](http://www.putty.org/).
  ```
-    $ 
+  $ 
  ```
 ### Install semua kebutuhan yang diperlukan
 Sebelum menginstall kebutuhan yang diperlukan, pastikan seluruh paket pada sistem sudah up-to-date
  ```
-    sudo apt-get update
+  sudo apt-get update
  ```
  
 Install seluruh kebutuhan yang diperlukan
  ```
-    sudo apt install -y mariadb-server
+ sudo apt install -y mariadb-server
     sudo apt install -y php php-fpm php-cli php-mysql php-zip php-gd php-mbstring php-curl php-xml php-pear php-bcmath
     sudo apt install -y nginx
  ```
