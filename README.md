@@ -17,7 +17,7 @@
  ```
     $ 
  ```
-#### Install semua kebutuhan yang diperlukan
+### Install semua kebutuhan yang diperlukan
 Sebelum menginstall kebutuhan yang diperlukan, pastikan seluruh paket pada sistem sudah up-to-date
  ```
     sudo apt-get update
@@ -34,8 +34,28 @@ Setelah semua kebutuhan telah diinstall, jalankan Nginx dan MariaDB
     sudo systemctl start nginx
     sudo systemctl start mariadb
  ```
-
-#### Download dan Install YOURSL
+### Membuat database untuk YOURLS
+Pertama masuk terlebih dahulu kedalam MariaDB
+ ```
+    sudo mysql
+ ```
+ 
+Setelah masuk buat database bernama yourls
+ ```
+    CREATE DATABASE yourls;
+ ```
+Berikan semua akses database yourls kepada user yourls@localhost dan tambahkan password
+ ```
+    GRANT ALL PRIVILEGES ON yourls.* TO 'yourls'@'localhost' IDENTIFIED BY "YOUR-PASSWORD";
+ ```
+ 
+Flush hak akses yang diberikan dan keluar dari MariaDb
+ ```
+   FLUSH PRIVILEGES;
+   QUIT
+ ```
+ 
+### Download dan Install YOURSL
 2. Tempatkan unduhan YOURLS ke `/srv` directory
 ```
     $ cd /srv
