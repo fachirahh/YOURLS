@@ -70,29 +70,33 @@ Set database connection dengan mengedit isi dari file `config.php`
 ```
     $ sudo config.php
 ```
-Disini ada beberapa hal yang akan diubah diantaranya yaitu
-#### Username database (sesuai dengan nama user pada saat membuat database pada MariaDB tadi
+Disini ada beberapa hal yang akan diubah. Pastikan data konfigurasi pada `config.php` sesuai dengan database yang telah dibuat pada `MariaDB` tadi
+#### - Username database 
 ```
-    *
-    ** MySQL settings - You can get this info from your web host
-    */
-
-    /** MySQL database username */
-    define( 'YOURLS_DB_USER', 'yourls' );
-
-    /** MySQL database password */
-    define( 'YOURLS_DB_PASS', 'StrongPassword' );
- 
-    /** The name of the database for YOURLS */
-    define( 'YOURLS_DB_NAME', 'yourls' );
-
-    /** MySQL hostname.
+   /** MySQL database username */
+   define( 'YOURLS_DB_USER', 'yourls' );
+```
+#### - Password database
+```
+   /** MySQL database password */
+   define( 'YOURLS_DB_PASS', 'YOUR-Password' );
+```
+#### - Nama database
+```
+   /** The name of the database for YOURLS */
+   define( 'YOURLS_DB_NAME', 'yourls' );
+```
+#### - Nama Hostname
+```
+   /** MySQL hostname.
      ** If using a non standard port, specify it like 'hostname:port', eg. 'localhost:9999' or '127.0.0.1:666' */
     define( 'YOURLS_DB_HOST', 'localhost' );
-
-    /** MySQL tables prefix */                                                                                                                            
-    define( 'YOURLS_DB_PREFIX', 'yourls_' );
 ```
+#### - Table Prefix
+```
+    /** MySQL tables prefix */                                                                                             define( 'YOURLS_DB_PREFIX', 'yourls_' );
+```
+
 5.  Set website URL for YOURLS
  ```
     /** YOURLS installation URL -- all lowercase, no trailing slash at the end.
