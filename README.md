@@ -255,7 +255,7 @@
   
   Terlihat bahwa link yang disingkat sekarang menyediakan QR code. Kekurangan plugin ini adalah, QR code tersebut tidak tersimpan pada database, sehingga hanya bisa dilihat sekali saja.
   
-  ![qr code](Photos/16.PNG)
+  ![qr code](Photos/16.png)
 
 ## PEMBAHASAN
 YOURLS (Your Own URL Shortener) merupakan kumpulan kecil PHP scripts yang bisa menjalankan pemendekan URL milik sendiri. Dengan memanfaatkan layanan perangkat lunak ini, kita bisa memiliki data sendiri sehingga tidak perlu mengandalkan bantuan dari pihak ketiga seperti pada shortener url lain. Keuntungan lain adalah bisa membantu untuk branding brand produk milik sendiri ke dalam URL yang dibuat tersebut.
