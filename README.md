@@ -129,7 +129,7 @@
     ** YOURLS will auto encrypt plain text passwords in this file
     ** Read http://yourls.org/userpassword for more information */
     $yourls_user_passwords = array(
-       'admin' => 'AdminPassword',
+       'yourls' => 'YOUR-Password',
        'jmutai' => 'MyStrongPassword',
         // You can have one or more 'login'=>'password' lines
      );
@@ -184,12 +184,21 @@
   ```
     $ sudo systemctl restart nginx
   ```
+ 
+ ### Mengakses YOURLS
+- Buka browser dan akses web instalasi YOURLS menggunakan URL yang telah diatur di `config.php` dan tambahkan `/admin`. Disini URL yang kami pakai berarti `http://localhost:8000/admin`. Selanjutnya kita akan diarahkan ke `http://localhost:8000/admin/install.php`
+![install](Photos/01.PNG)
+
+- Setelah mengklik install, page akan menuju tempat login
+![empty_username](Photos/02.PNG)
+
+- Isi username dan password yang telah diatur di `config.php`. Lalu klik login
+![filled_username](Photos/03.PNG)
+
+- YOURLS pun sudah siap digunakan
+![admin_page](Photos/04.PNG)
 
 ## CARA PEMAKAIAN
-![install](Photos/01.PNG)
-![empty_username](Photos/02.PNG)
-![filled_username](Photos/03.PNG)
-![admin_page](Photos/04.PNG)
 ![try_short_url](Photos/05.PNG)
 ![success_short_url](Photos/06.png)
 ![go_short_url](Photos/07.png)
