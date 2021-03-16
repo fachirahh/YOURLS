@@ -203,12 +203,59 @@
   ![admin_page](Photos/04.PNG)
 
 ## CARA PEMAKAIAN
-![try_short_url](Photos/05.PNG)
-![success_short_url](Photos/06.png)
-![go_short_url](Photos/07.png)
-![go_short_url_success](Photos/08.PNG)
-![try_short_url2](Photos/09.PNG)
-![failed_short_url](Photos/10.png)
+  ![try_short_url](Photos/05.PNG)
+  ![success_short_url](Photos/06.png)
+  ![go_short_url](Photos/07.png)
+  ![go_short_url_success](Photos/08.PNG)
+  ![try_short_url2](Photos/09.PNG)
+  ![failed_short_url](Photos/10.png)
+  
+ ### Manage Plugins
+- Mengaktifkan dan Menonaktifkan Plugin
+ 
+  Salah satu keuntungan YOURLS yaitu YOURLS menyediakan berbagai plugins yang mungkin saja berguna. Untuk mengatur plugins, klik `Manage Plugins` di sudut kiri atas. Secara default, YOURLS menyediakan 6 plugins
+
+  ![try_short_url](Photos/11.PNG)
+  
+  Contohnya disini kita akan mengaktifkan plugin `Random Background`. Untuk mengaktifkan plugin, arahkan kursor ke tab `Action` dan klik `Activate`
+  
+  ![try_short_url](Photos/12.PNG)
+  
+  Setelah di klik akan muncul pemberitahuan plugin telah aktif. Selain itu juga terdapat informasi mengenai banyaknya plugin yang terinstall pada YOURLS dan berapa plugin yang aktif di atas tabel daftar plugin. Terlihat bahwa background pada page berubah
+  
+  ![try_short_url](Photos/13.PNG)
+  
+  Untuk menonaktifkan plugin arahkan lagi kursor ke tab `Action` dan klik `Deactivate`
+  
+  ![try_short_url](Photos/14.PNG)
+ 
+- Menginstall Plugin
+ 
+  YOURLS menyediakan banyak sekali plugins yang bisa diakses di [YOURLS Plugins](https://github.com/YOURLS/awesome-yourls#plugins-). Contohnya disini kita akan mengistall plugin [QR Google Charts](https://github.com/aiaraldea/qr-google-charts), yaitu plugin yang berfungsi untuk menampilkan QR code dari link yang akan disingkat.
+  
+  Caranya yaitu, buka terminal yang sudah login ke dalam server. Lalu masuk ke direktori `/YOURLS/user/plugins` 
+  
+  ```
+    $ cd /srv/YOURLS/user/plugins
+  ```
+  
+  Setelah itu download plugin melalui repositori Git yang sudah disediakan
+  
+  ```
+    $ sudo git clone https://github.com/aiaraldea/qr-google-charts.git
+  ```
+  
+  Refresh halaman `Manage Plugins`. Terlihat bahwa plugin berhasil ditambahkan. Klik `Activate` untuk mencoba plugin
+  
+  ![try_short_url](Photos/15.PNG)
+  
+  Masukkan link yang akan disingkat seperti biasa
+  
+  ![try_short_url](Photos/16.PNG)
+  
+  Terlihat bahwa link yang disingkat sekarang menyediakan QR code. Kekurangan plugin ini adalah, QR code tersebut tidak tersimpan pada database, sehingga hanya bisa dilihat sekali saja.
+  
+  ![try_short_url](Photos/16.PNG)
 
 ## PEMBAHASAN
 YOURLS (Your Own URL Shortener) merupakan kumpulan kecil PHP scripts yang bisa menjalankan pemendekan URL milik sendiri. Dengan memanfaatkan layanan perangkat lunak ini, kita bisa memiliki data sendiri sehingga tidak perlu mengandalkan bantuan dari pihak ketiga seperti pada shortener url lain. Keuntungan lain adalah bisa membantu untuk branding brand produk milik sendiri ke dalam URL yang dibuat tersebut.
