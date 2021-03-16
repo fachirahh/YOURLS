@@ -234,7 +234,7 @@ https://www.krawu.com/membangun-situs-web-shorten-url-dengan-yourls-6637.html
 ## UCAPAN TERIMA KASIH
 Kami mengucapkan banyak-banyak terimakasih untuk teman-teman yang sudah meluangkkan waktu, tenaga, dan pikiran dalam pengerjaan projek ini, begitu juga teman-teman lainnya yang sudah ikut membantu dalam menyukseskan projek kami.. semoga selalu diberi keberkahan dan kemudahan.. <3
 
-###Kelompok 10
+**Kelompok 10**
 | Nama                           | NIM       |
 | ------------------------------ | ----------|
 | Fachirah Hestiana Rachmawati   | G64180021 |
