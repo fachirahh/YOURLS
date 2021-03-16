@@ -211,7 +211,7 @@
 ![failed_short_url](Photos/10.png)
 
 ## PEMBAHASAN
-YOURLS (Your Own URL Shortener) merupakan kumpulan kecil PHP scripts yang bisa menjalankan pemendekan URL milik sendiri. Dengan memanfaatkan layanan perangkat lunak ini, kita bisa memiliki data sendiri sehingga tidak perlu mengandalkan bantuan dari pihak ketiga seperti pada shortener url lain. Keuntungan lain adalah bisa membantu untuk branding brand produk milik sendiri ke dalam URL yang dibuat tersebut. <br>
+YOURLS (Your Own URL Shortener) merupakan kumpulan kecil PHP scripts yang bisa menjalankan pemendekan URL milik sendiri. Dengan memanfaatkan layanan perangkat lunak ini, kita bisa memiliki data sendiri sehingga tidak perlu mengandalkan bantuan dari pihak ketiga seperti pada shortener url lain. Keuntungan lain adalah bisa membantu untuk branding brand produk milik sendiri ke dalam URL yang dibuat tersebut.
 Fitur menarik yang menguntungkan dari YOURLS yaitu :
 - Free and Open Sources
 Fitur dan perangkat lunak shortener url ini tergolong sebagai perangkat lunak open source, dimana siapa saja bisa mendapatkannya dan yang paling penting adalah bisa didapatkan secara gratis.
@@ -221,7 +221,7 @@ Fitur selanjutnya yang menakjubkan dari YOURLS adalah adanya fitur statistik yan
 Setiap pengguna internet pasti menginginkan agar tampilan antarmuka saat mengakses sebuah laman bisa lebih mudah. Karena itu shortener url ini menggunakan interface ajaxed yang rapi sehingga bisa lebih memudahkan pengguna. Selain itu, plugin yang digunakan juga sangat baik dalam mengimplementasikan setiap fitur-fitur baru yang ada di dalam url dengan lebih mudah. Ada juga sampel file yang bisa Anda gunakan untuk membuat antarmuka publik milik Anda sendiri.
 - Mudah Digunakan
 Dibandingkan dengan shortener url lainnya, perangkat lunak ini cenderung lebih mudah digunakan. Untuk mendapatkannya, Anda tinggal mengunduh di situs yourls.org, kemudian unduh script yang tersedia di dalamnya. Selanjutnya Anda tinggal upload script milik Anda di hosting Anda sendiri. Cara menginstalnya pun sudah disediakan di dalam file readme.html.
-<br>
+
 Disamping fiturnya yang menguntungkan, YOURLS juga memiliki kekurangan, antara lain :
 - Banyak fungsi plugin harus dimasukkan ke dalam perangkat lunak secara default seperti pembuatan QR code. 
 - UI admin terlihat agak ketinggalan jaman.
