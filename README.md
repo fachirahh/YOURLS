@@ -232,12 +232,12 @@ Pada web YOURLS, disediakan statistik short URL yang telah dbuat. Fitur statisti
 
 Kemudian, akan ditampilkan statistik dari penggunaan short URL tersebut seperti gambar dibawah.
     ![stat2](Photos/stat2.PNG)
-    **1. Traffic Statistics** <br>
-       Memperlihatkan histori dari jumlah *hits* pada short URL.<br>
-    **2. Traffic Location** <br>
-       Menunjukkan histori jumlah klik short URL pada berdasarkan negara. Bagian ini akan diperlihatkan diagram Top 5 Countries dengan keterangan jumlah *hits* setiap negara.<br>
-    **3. Traffic Sources**<br>
-       Pada bagian ini, akan ditunjukan diagram jumlah URL dibagikan beserta sumbernya. Kemudian, akan ditampilkan diagram perbandingan Direct vs Referrer Traffic.<br>
+    1. Traffic Statistics
+      Memperlihatkan histori dari jumlah *hits* pada short URL.    
+    2. Traffic Location
+      Menunjukkan histori jumlah klik short URL pada berdasarkan negara. Bagian ini akan diperlihatkan diagram Top 5 Countries dengan keterangan jumlah *hits* setiap negara.     
+    3. Traffic Sources
+      Pada bagian ini, akan ditunjukan diagram jumlah URL dibagikan beserta sumbernya. Kemudian, akan ditampilkan diagram perbandingan Direct vs Referrer Traffic.
 
 ### Fitur Search
 
