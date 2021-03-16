@@ -196,8 +196,22 @@
 ![go_short_url_success](Photos/08.PNG)
 ![try_short_url2](Photos/09.PNG)
 ![failed_short_url](Photos/10.png)
-## PEMBAHASAN
-## REFERENSI
-## UCAPAN TERIMA KASIH
 
+## PEMBAHASAN
+YOURLS (Your Own URL Shortener) merupakan kumpulan kecil PHP scripts yang bisa menjalankan pemendekan URL milik sendiri. Dengan memanfaatkan layanan perangkat lunak ini, kita bisa memiliki data sendiri sehingga tidak perlu mengandalkan bantuan dari pihak ketiga seperti pada shortener url lain. Keuntungan lain adalah bisa membantu untuk branding brand produk milik sendiri ke dalam URL yang dibuat tersebut.
+Fitur menarik yang menguntungkan dari YOURLS yaitu :
+- Free and Open Sources
+Fitur dan perangkat lunak shortener url ini tergolong sebagai perangkat lunak open source, dimana siapa saja bisa mendapatkannya dan yang paling penting adalah bisa didapatkan secara gratis.
+- Menampilkan Data Statistik
+Fitur selanjutnya yang menakjubkan dari YOURLS adalah adanya fitur statistik yang bisa menampilkan laporan histori klik dari pengunjung yang mengklik url tersebut, statistik rujukan pelacakan lain, serta statistil tentang geo-lokasi dari pengunjung yang mengakses url tersebut.
+- Interface dan Plugin
+Setiap pengguna internet pasti menginginkan agar tampilan antarmuka saat mengakses sebuah laman bisa lebih mudah. Karena itu shortener url ini menggunakan interface ajaxed yang rapi sehingga bisa lebih memudahkan pengguna. Selain itu, plugin yang digunakan juga sangat baik dalam mengimplementasikan setiap fitur-fitur baru yang ada di dalam url dengan lebih mudah. Ada juga sampel file yang bisa Anda gunakan untuk membuat antarmuka publik milik Anda sendiri.
+- Mudah Digunakan
+Dibandingkan dengan shortener url lainnya, perangkat lunak ini cenderung lebih mudah digunakan. Untuk mendapatkannya, Anda tinggal mengunduh di situs yourls.org, kemudian unduh script yang tersedia di dalamnya. Selanjutnya Anda tinggal upload script milik Anda di hosting Anda sendiri. Cara menginstalnya pun sudah disediakan di dalam file readme.html.
+
+## REFERENSI
+https://computingforgeeks.com/how-to-install-yourls-your-own-url-shortener-on-ubuntu-18-04-bionic-beaver-linux/
+https://www.krawu.com/membangun-situs-web-shorten-url-dengan-yourls-6637.html
+
+## UCAPAN TERIMA KASIH
 Kami mengucapkan banyak-banyak terimakasih untuk teman-teman yang sudah meluangkkan waktu, tenaga, dan pikiran dalam pengerjaan projek ini, begitu juga teman-teman lainnya yang sudah ikut membantu dalam menyukseskan projek kami.. semoga selalu diberi keberkahan dan kemudahan.. <3
