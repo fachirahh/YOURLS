@@ -192,15 +192,15 @@
 
 - Setelah mengklik install, page akan menuju tempat login
 
-![empty_username](Photos/02.PNG)
+  ![empty_username](Photos/02.PNG)
 
 - Isi username dan password yang telah diatur di `config.php`. Lalu klik login
 
-![filled_username](Photos/03.PNG)
+  ![filled_username](Photos/03.PNG)
 
 - YOURLS pun sudah siap digunakan
 
-![admin_page](Photos/04.PNG)
+  ![admin_page](Photos/04.PNG)
 
 ## CARA PEMAKAIAN
 ![try_short_url](Photos/05.PNG)
