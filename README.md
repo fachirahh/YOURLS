@@ -225,7 +225,7 @@
   
   ![failed_short_url](Photos/10.png)
   
- ### Manage Plugins
+## Manage Plugins
 - #### Mengaktifkan dan Menonaktifkan Plugin
  
   Salah satu keuntungan YOURLS yaitu YOURLS menyediakan berbagai plugins yang mungkin saja berguna. Untuk mengatur plugins, klik `Manage Plugins` di sudut kiri atas. Secara default, YOURLS menyediakan 6 plugins
