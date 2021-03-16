@@ -203,7 +203,7 @@
   ![admin_page](Photos/04.PNG)
 
 ## CARA PEMAKAIAN
-## Membuat Short Link
+### Membuat Short Link
 1. Untuk pemakaian YOURLS sendiri sama seperti aplikasi *short link* pada umumnya, yakni dengan memasukan URL yang ingin dipendekkan pada bagian **Enter the URL :**. Selajutnya, masukan inisial yang mengartikan URL sebelumnya pada bagian **Custom short URL** dimana pada bagian ini bersifat opsional. 
 
     ![try_short_url](Photos/05.PNG)
@@ -226,7 +226,11 @@
   
     ![failed_short_url](Photos/10.png)
   
-## Manage Plugins
+### Melihat Statistik
+
+### Fitur Search
+
+### Manage Plugins
 - #### Mengaktifkan dan Menonaktifkan Plugin
  
   Salah satu keuntungan YOURLS yaitu YOURLS menyediakan berbagai plugins yang mungkin saja berguna. Untuk mengatur plugins, klik `Manage Plugins` di sudut kiri atas. Secara default, YOURLS menyediakan 6 plugins
