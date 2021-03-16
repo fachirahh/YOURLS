@@ -228,8 +228,11 @@ Disamping fiturnya yang menguntungkan, YOURLS juga memiliki kekurangan, antara l
 - Penginstalan memerlukan pengeditan file konfigurasi secara manual.
 
 ## REFERENSI
-https://computingforgeeks.com/how-to-install-yourls-your-own-url-shortener-on-ubuntu-18-04-bionic-beaver-linux/
-https://www.krawu.com/membangun-situs-web-shorten-url-dengan-yourls-6637.html
+1. [About YOURLS](http://yourls.org) - YOURLS
+2. [How to Install yourls on ubuntu 18.04](https://computingforgeeks.com/how-to-install-yourls-your-own-url-shortener-on-ubuntu-18-04-bionic-beaver-linux/)
+3. [Web Shorten URL dengan YOURLS](https://www.krawu.com/membangun-situs-web-shorten-url-dengan-yourls-6637.html)
+4. [How To Log Into a VPS with PuTTY (Windows Users)](https://www.digitalocean.com/community/tutorials/how-to-log-into-a-vps-with-putty-windows-users) - Digital Ocean
+
 
 ## UCAPAN TERIMA KASIH
 Kami mengucapkan banyak-banyak terimakasih untuk teman-teman yang sudah meluangkkan waktu, tenaga, dan pikiran dalam pengerjaan projek ini, begitu juga teman-teman lainnya yang sudah ikut membantu dalam menyukseskan projek kami.. semoga selalu diberi keberkahan dan kemudahan.. <3
