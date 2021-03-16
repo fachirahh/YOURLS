@@ -218,13 +218,13 @@
 
 4. Setelah itu, short URL tersebut akan mengarahkan ke halaman yang sesuai.
 
-   ![go_short_url_success](Photos/08.PNG)
+    ![go_short_url_success](Photos/08.PNG)
   
 5. Jika URL yang ingin di-*short* sudah pernah digunakan sebelumnya, maka akan muncul *sweetalert failed*. Hal ini disebabkan URL yang sudah digunakan tidak bisa digunakan dua kali.
   
-  ![try_short_url2](Photos/09.PNG)
+    ![try_short_url2](Photos/09.PNG)
   
-  ![failed_short_url](Photos/10.png)
+    ![failed_short_url](Photos/10.png)
   
 ## Manage Plugins
 - #### Mengaktifkan dan Menonaktifkan Plugin
