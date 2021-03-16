@@ -203,11 +203,26 @@
   ![admin_page](Photos/04.PNG)
 
 ## CARA PEMAKAIAN
+1. Untuk pemakaian YOURLS sendiri sama seperti aplikasi *short link* pada umumnya, yakni dengan memasukan URL yang ingin dipendekkan pada bagian **Enter the URL :**. Selajutnya, masukan inisial yang mengartikan URL sebelumnya pada bagian **Custom short URL** dimana pada bagian ini bersifat opsional. 
+
   ![try_short_url](Photos/05.PNG)
-  ![success_short_url](Photos/06.png)
+  
+2. Ketika URL berhasil di-*short*, maka akan muncul *sweetalert success*.
+
+![success_short_url](Photos/06.png)
+
+3. Cara menggunakan short URL tersebut dengan memasukan `URL_YOURLS/inisial`. Karena URL yang kami gunakan adalah `http://localhost:8000`, maka dalam penggunaannya adalah `http://localhost:8000/inisial`.
+
   ![go_short_url](Photos/07.png)
+
+4. Setelah itu, short URL tersebut akan mengarahkan ke halaman yang sesuai.
+
   ![go_short_url_success](Photos/08.PNG)
+  
+5. Jika URL yang ingin di-*short* sudah pernah digunakan sebelumnya, maka akan muncul *sweetalert failed*. Hal ini disebabkan URL yang sudah digunakan tidak bisa digunakan dua kali.
+  
   ![try_short_url2](Photos/09.PNG)
+  
   ![failed_short_url](Photos/10.png)
   
  ### Manage Plugins
