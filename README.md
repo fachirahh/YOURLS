@@ -188,7 +188,7 @@
  ### Mengakses YOURLS
 - Buka browser dan akses web instalasi YOURLS menggunakan URL yang telah diatur di `config.php` dan tambahkan `/admin`. Disini URL yang kami pakai berarti `http://localhost:8000/admin`. Selanjutnya kita akan diarahkan ke `http://localhost:8000/admin/install.php`
 
-![install](Photos/01.PNG)
+  ![install](Photos/01.PNG)
 
 - Setelah mengklik install, page akan menuju tempat login
 
