@@ -211,25 +211,25 @@
   ![failed_short_url](Photos/10.png)
   
  ### Manage Plugins
-- Mengaktifkan dan Menonaktifkan Plugin
+- #### Mengaktifkan dan Menonaktifkan Plugin
  
   Salah satu keuntungan YOURLS yaitu YOURLS menyediakan berbagai plugins yang mungkin saja berguna. Untuk mengatur plugins, klik `Manage Plugins` di sudut kiri atas. Secara default, YOURLS menyediakan 6 plugins
 
-  ![try_short_url](Photos/11.PNG)
+  ![defaul plugin](Photos/11.png)
   
   Contohnya disini kita akan mengaktifkan plugin `Random Background`. Untuk mengaktifkan plugin, arahkan kursor ke tab `Action` dan klik `Activate`
   
-  ![try_short_url](Photos/12.PNG)
+  ![mengaktifkan](Photos/12.png)
   
   Setelah di klik akan muncul pemberitahuan plugin telah aktif. Selain itu juga terdapat informasi mengenai banyaknya plugin yang terinstall pada YOURLS dan berapa plugin yang aktif di atas tabel daftar plugin. Terlihat bahwa background pada page berubah
   
-  ![try_short_url](Photos/13.PNG)
+  ![plugin aktif](Photos/13.png)
   
   Untuk menonaktifkan plugin arahkan lagi kursor ke tab `Action` dan klik `Deactivate`
   
-  ![try_short_url](Photos/14.PNG)
+  ![menonaktifkan](Photos/14.png)
  
-- Menginstall Plugin
+- #### Menginstall Plugin
  
   YOURLS menyediakan banyak sekali plugins yang bisa diakses di [YOURLS Plugins](https://github.com/YOURLS/awesome-yourls#plugins-). Contohnya disini kita akan mengistall plugin [QR Google Charts](https://github.com/aiaraldea/qr-google-charts), yaitu plugin yang berfungsi untuk menampilkan QR code dari link yang akan disingkat.
   
@@ -247,15 +247,15 @@
   
   Refresh halaman `Manage Plugins`. Terlihat bahwa plugin berhasil ditambahkan. Klik `Activate` untuk mencoba plugin
   
-  ![try_short_url](Photos/15.PNG)
+  ![tambah plugin](Photos/15.png)
   
   Masukkan link yang akan disingkat seperti biasa
   
-  ![try_short_url](Photos/16.PNG)
+  ![buat link](Photos/16.png)
   
   Terlihat bahwa link yang disingkat sekarang menyediakan QR code. Kekurangan plugin ini adalah, QR code tersebut tidak tersimpan pada database, sehingga hanya bisa dilihat sekali saja.
   
-  ![try_short_url](Photos/16.PNG)
+  ![qr code](Photos/16.PNG)
 
 ## PEMBAHASAN
 YOURLS (Your Own URL Shortener) merupakan kumpulan kecil PHP scripts yang bisa menjalankan pemendekan URL milik sendiri. Dengan memanfaatkan layanan perangkat lunak ini, kita bisa memiliki data sendiri sehingga tidak perlu mengandalkan bantuan dari pihak ketiga seperti pada shortener url lain. Keuntungan lain adalah bisa membantu untuk branding brand produk milik sendiri ke dalam URL yang dibuat tersebut.
