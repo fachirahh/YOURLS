@@ -64,7 +64,7 @@
   ```
     CREATE DATABASE yourls;
   ```
-- Berikan semua akses database `yourls` kepada user `yourls` dengan hostname `yourls@localhost` dan tambahkan password
+- Berikan semua akses database `yourls` kepada user `yourls` dengan hostname `localhost` dan tambahkan password
 
   ```
     GRANT ALL PRIVILEGES ON yourls.* TO 'yourls'@'localhost' IDENTIFIED BY "YOUR-PASSWORD";
