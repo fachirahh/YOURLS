@@ -19,9 +19,9 @@
 ## INSTALASI
 ### Kebutuhan Sistem :
 - Linux atau Windows.
-- Nginx / Apache (httpd) version 2.4.
-- PHP version 5.3.
-- MySQL 5.0+.
+- Nginx / Apache (httpd) version 2.4 atau lebih tinggi
+- PHP version 5.3 atau lebih tinggi
+- MySQL 5.0+ atau lebih tinggi
 - RAM minimal 64 Mb+
 - PHP cURL extension
 
@@ -39,7 +39,7 @@
     $ sudo apt update
   ```
  
-- Install seluruh kebutuhan yang diperlukan
+- Install seluruh kebutuhan yang diperlukan. Alternatif lain dapat menggunakan Apache sebagai pengganti Nginx dan MySQL sebagai pengganti MariaDB
 
   ```
     $ sudo apt install mariadb-server
