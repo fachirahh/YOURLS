@@ -291,7 +291,7 @@ Kemudian akan muncul daftar URL sesuai kata kunci seperti gambar dibawah ini.
   
   ![buat link](Photos/16.png)
   
-  Terlihat bahwa link yang disingkat sekarang menyediakan QR code. Kekurangan plugin ini adalah, QR code tersebut tidak tersimpan pada database, sehingga hanya bisa dilihat sekali saja.
+  Terlihat bahwa link yang disingkat sekarang menyediakan QR code.
   
   ![qr code](Photos/17.png)
 
@@ -308,7 +308,7 @@ Fitur menarik yang menguntungkan dari YOURLS yaitu :
 -- Dibandingkan dengan shortener url lainnya, perangkat lunak ini cenderung lebih mudah digunakan. Untuk mendapatkannya, Anda tinggal mengunduh di situs yourls.org, kemudian unduh script yang tersedia di dalamnya. Selanjutnya Anda tinggal upload script milik Anda di hosting Anda sendiri. Cara menginstalnya pun sudah disediakan di dalam file readme.html.
 
 Disamping fiturnya yang menguntungkan, YOURLS juga memiliki kekurangan, antara lain :
-- Banyak fungsi plugin harus dimasukkan ke dalam perangkat lunak secara default seperti pembuatan QR code. 
+- Banyak fungsi plugin harus dimasukkan ke dalam perangkat lunak secara manual seperti pembuatan QR code. 
 - UI admin terlihat agak ketinggalan jaman.
 - Penginstalan memerlukan pengeditan file konfigurasi secara manual.
 
