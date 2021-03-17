@@ -315,10 +315,24 @@ Disamping fiturnya yang menguntungkan, YOURLS juga memiliki kekurangan, antara l
 ## Perbandingan Aplikasi Sejenis
 1. #### TinyURL
    TinyURL adalah penyingkat URL yang cocok untuk orang yang perlu mempersingkat tautan dengan cepat, tanpa perlu melacak atau mengaturnya setelah dibuat.
-   Kelebihan :
+   Kelebihan:
    - Mudah digunakan
    - Bisa custom URL SLUG
    - Gratis
+
+2. Snip.ly
+   Penyingkat URL yang bagus untuk content creators. URL link shortener yang menawarkan pengaturan yang bisa disesuaikan dengan call-to-action ketika diklik.
+   Kelebihan:
+   - link dapat di atur privasi
+
+3. Bit.ly
+   layanan URL Shortener dan Link Management Platform yang memungkinkan untuk merubah URL yang panjang menjadi lebih ringkas dan juga menentukan nama yang lebih mudah diingat pada URL yang telah dipendekkan.
+   Kelebihan:
+   - Mudah dan cepat untuk menciptakan short link.
+   - Layanan ini bersifat gratis.
+   - Banyak diterima di berbagai media sosial.
+   - Berkesempatan untuk memperoleh profit $4/1000 viewer
+   - Memiliki sistem refferal.
    
 ## REFERENSI
 1. [About YOURLS](http://yourls.org) - YOURLS
