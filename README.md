@@ -320,12 +320,12 @@ Disamping fiturnya yang menguntungkan, YOURLS juga memiliki kekurangan, antara l
    - Bisa custom URL SLUG
    - Gratis
 
-2. Snip.ly
+2. #### Snip.ly
    Penyingkat URL yang bagus untuk content creators. URL link shortener yang menawarkan pengaturan yang bisa disesuaikan dengan call-to-action ketika diklik.
    Kelebihan:
    - link dapat di atur privasi
 
-3. Bit.ly
+3. #### Bit.ly
    layanan URL Shortener dan Link Management Platform yang memungkinkan untuk merubah URL yang panjang menjadi lebih ringkas dan juga menentukan nama yang lebih mudah diingat pada URL yang telah dipendekkan.
    Kelebihan:
    - Mudah dan cepat untuk menciptakan short link.
